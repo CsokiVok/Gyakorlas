@@ -18,7 +18,27 @@
             <button type="button" class="btn btn-outline-primary" id="creat">Készítés</button>
             <button type="button" class="btn btn-outline-primary" id="read">Olvasás</button>
         </div>
-        
+
+        <form id="userForm" method="post" class="d-none">
+
+            <input type="hidden" id="id" value="0">
+
+            <div class="mb-3">
+                <label for="firstName" class="Form-lable">Keresztnév</label>
+                <input type="text" class="form-control" id="firstName">
+            </div>
+
+            <div class="mb-3">
+                <label for="lastName" class="Form-lable">Vezetéknév</label>
+                <input type="text" class="form-control" id="lastName">
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-outline-primary" id="userFormSubmitButton">Felvétel</button>
+            </div>
+
+        </form>
+
     </main>
 </body>
 </html>
